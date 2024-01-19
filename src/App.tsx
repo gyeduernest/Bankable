@@ -7,6 +7,8 @@ import Transaction from "./Pages/Transaction"
 import Trustfund from "./Pages/Trustfund"
 import Landingpage from "./Startpage/Landingpage"
 import { BrowserRouter, Routes, Route } from "react-router-dom"
+import { auth } from './firebaseConfig';
+
 
 
 function App() {
@@ -17,8 +19,8 @@ function App() {
     <BrowserRouter>
           <Routes>
             <Route path="/" element={<Landingpage/>}    />
-            <Route path="/login" element={<Login/>}    />
-            <Route path="/signup" element={<Signup/>}    />
+            <Route path="/login" element={<Login  auth={auth}/>}    />
+            <Route path="/signup" element={<Signup auth={auth}/>}    />
             <Route path="/homescreen" element={<Homescreen/>}    />
             <Route path="/trustfund" element={<Trustfund/>}    />
             <Route path="/transaction" element={<Transaction/>}    />

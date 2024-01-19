@@ -1,35 +1,32 @@
-import { Button } from "@/components/ui/button"
-import { useState } from "react"
-import { auth } from "../firebaseConfig"
-import { createUserWithEmailAndPassword } from 'firebase/auth';
+import { Button } from "@/components/ui/button";
+import { useState } from "react";
+import { createUserWithEmailAndPassword, Auth } from 'firebase/auth';
 import { useNavigate } from "react-router-dom";
-import logo from '../assets/Primarylogo.svg'
+import logo from '../assets/Primarylogo.svg';
 
+interface SignupProps {
+  auth: Auth;
+}
 
-
-export default function Signup() {
+const Signup: React.FC<SignupProps> = ({ auth }) => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const navigate = useNavigate();
 
-  const createAccount = async (e) => {
+  const createAccount = async (e: React.FormEvent) => {
     e.preventDefault();
 
     try {
-    
-const userCredential = await createUserWithEmailAndPassword(auth, email, password);
-      const user = userCredential.user;
-    
+      await createUserWithEmailAndPassword(auth, email, password);
+      // const user = userCredential.user;
+
       navigate('/login');
     } catch (error) {
-    
       console.error('Authentication Error:', error);
     }
 
     alert("Account successfully created");
   };
-
-  
   
   return (
     <div className=" justify-center lg:px-[500px] py-10 px-6 lg:py-20">
@@ -97,3 +94,5 @@ const userCredential = await createUserWithEmailAndPassword(auth, email, passwor
     </div>
   )
 }
+
+export default Signup;

@@ -1,19 +1,17 @@
-// Signout.js
+import React, { useEffect, useState } from 'react';
 import { Button } from '@/components/ui/button';
-import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { auth } from '../firebaseConfig'; // Import the initialized Firebase instance
-import Logout from '../assets/Logout.svg'
+import Logout from '../assets/Logout.svg';
 
-
-const Signout = () => {
-  const [user, setUser] = useState(null);
+const Signout: React.FC = () => {
+  
+  const [loading, setLoading] = useState(true);
   const navigate = useNavigate();
 
-
   useEffect(() => {
-    const unsubscribe = auth.onAuthStateChanged((user) => {
-      setUser(user);
+    const unsubscribe = auth.onAuthStateChanged(() => {
+      setLoading(false); // Set loading to false once the authentication state is checked
     });
 
     return () => unsubscribe();
@@ -23,12 +21,20 @@ const Signout = () => {
     try {
       await auth.signOut();
       console.log('User signed out successfully.');
-      navigate('/'); 
+      navigate('/');
     } catch (error) {
-      console.error('Error signing out:', error.message);
+      if (error instanceof Error) {
+        console.error('Error signing out:', error.message);
+      } else {
+        console.error('Unknown error signing out:', error);
+      }
     }
   };
 
+  // If still loading, you can show a loading indicator or null
+  if (loading) {
+    return null; // or loading indicator
+  }
   return (
     <>
         <Button className=''  variant={"outline"}   onClick={handleLogout} >
