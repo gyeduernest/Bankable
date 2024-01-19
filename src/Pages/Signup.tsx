@@ -32,7 +32,7 @@ const userCredential = await createUserWithEmailAndPassword(auth, email, passwor
   
   
   return (
-    <div className=" justify-center lg:py-20 lg:px-[500px] py-10 px-6 lg:py-20">
+    <div className=" justify-center lg:px-[500px] py-10 px-6 lg:py-20">
       <div className="">
               <img src={logo} alt=""  className="w-64"/>
               </div>

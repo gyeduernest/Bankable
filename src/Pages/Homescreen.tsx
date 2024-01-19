@@ -44,22 +44,22 @@ export default function Homescreen() {
   <div className="lg:fixed lg:left-5  ">
     <Sidemenu/>
   </div>
-    <div className="lg:flex lg:ml-64  ">
+    <div className="lg:flex lg:ml-64 ">
        <div className="px-5">
-          <div className='lg:flex gap-8 lg:flex-wrap h-40 md:flex justify-center'>
+          <div className='lg:flex gap-8 lg:flex-wrap h-40 md:flex justify-center lg:mb-10'>
           <AlertDialog>
-              <AlertDialogTrigger className="mb-5 w-full lg:w-48 md:w-48 md:mr-8 ">
-                <Card className="mb-5 w-full lg:w-48 bg-red-50">
+              <AlertDialogTrigger className="mb-5 w-full lg:w-48 md:w-96 md:mr-8 ">
+                <Card className="mb-5 w-full lg:w-48 bg-red-50  h-[150px]">
               <CardHeader>
                 <CardDescription className="text-slate-700 font-medium text-center md:text-left ">Current Balance</CardDescription>
                 <CardTitle className="flex text-red-700"><span className="w-6">$</span>597,483.89</CardTitle>
               </CardHeader>
               <CardContent className="flex gap-2">
-                <p className="text-red-400">Funds locked up</p>
+                <p className="text-red-400 text-sm">Funds locked up</p>
                 <img src={Warn} alt="" />
               </CardContent>
             </Card></AlertDialogTrigger>
-              <AlertDialogContent className="">
+              <AlertDialogContent className=" ">
                 <AlertDialogHeader>
                   <AlertDialogTitle>Funds are Locked</AlertDialogTitle>
                   <AlertDialogDescription>
@@ -68,12 +68,12 @@ export default function Homescreen() {
                 </AlertDialogHeader>
                 <AlertDialogFooter>
                   <AlertDialogCancel className="bg-red-600 text-white hover:bg-red-600 hover:text-white">Cancel</AlertDialogCancel>
-                  <a href=""   target="_blank"><AlertDialogAction className="bg-blue-700 hover:bg-blue-600">Start Process</AlertDialogAction></a>
+                  <AlertDialogAction className="bg-blue-700"> Start Process</AlertDialogAction>
                 </AlertDialogFooter>
               </AlertDialogContent>
             </AlertDialog>
             
-           <Card className="mb-5 w-full lg:w-48">
+           <Card className="mb-5 w-full lg:w-48 h-[150px] md:w-96">
               <CardHeader>
                 <CardDescription className="text-slate-700 font-medium">Latest Transaction</CardDescription>
                 <CardTitle className="flex"><span className="w-6">$</span>2k</CardTitle>
@@ -87,7 +87,7 @@ export default function Homescreen() {
               </CardContent>
               
             </Card>
-           <Card className="mb-5 w-full lg:w-48">
+           <Card className="mb-5 w-full lg:w-48 h-[150px] md:w-96">
               <CardHeader>
                 <CardDescription className="text-slate-700 font-medium">Pending Transactions</CardDescription>
                 <CardTitle className="flex">5</CardTitle>
@@ -101,8 +101,11 @@ export default function Homescreen() {
               </CardContent>
             </Card>         
           </div>
+          <div className="mb-96  lg:mb-0 md:mb-3">
+
+          </div>
           <div className=" 
-          bg-white lg:p-5 md:p-5 border rounded-md mb-10 md:mb-10 md:mt-5 mt-72 lg:mt-5 lg:mb-10 " >
+          bg-white lg:p-5 md:p-5 border rounded-md mb-10 md:mb-10 md:mt-5  lg:mt-5 lg:mb-10 " >
 
           <div className="border lg:py-3   rounded-md shadow-sm mb-3">
               <div className="lg:flex items-center lg:px-10 lg:justify-between ">

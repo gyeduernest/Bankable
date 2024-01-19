@@ -31,7 +31,8 @@ export default function Topnav() {
               <ul className='flex gap-3'>
 
                               <DropdownMenu>
-                  <DropdownMenuTrigger><Button variant={"outline"}  className='flex' size={"icon"} >
+                  <DropdownMenuTrigger>
+                    <Button variant={"outline"}  className='flex' size={"icon"} >
                   <img src={Notification} alt="" />
                </Button></DropdownMenuTrigger>
                   <DropdownMenuContent>
@@ -54,7 +55,7 @@ export default function Topnav() {
 
 
 
-                <Button className='flex gap-2'  variant={"outline"} size={"icon"}>
+                <Button className=''  variant={"outline"} >
                   <img src={Person} alt="" />
                   <p className='text-xs hidden sm:hidden md:hidden lg:block'>Mary Jones</p>
                </Button>

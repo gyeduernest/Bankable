@@ -23,7 +23,7 @@ const Signout = () => {
     try {
       await auth.signOut();
       console.log('User signed out successfully.');
-      navigate('/login'); 
+      navigate('/'); 
     } catch (error) {
       console.error('Error signing out:', error.message);
     }
@@ -31,7 +31,7 @@ const Signout = () => {
 
   return (
     <>
-        <Button className='flex gap-4'  variant={"outline"} size={"icon"}  onClick={handleLogout} >
+        <Button className=''  variant={"outline"}   onClick={handleLogout} >
                   <img src={Logout} alt="" />
                   <p className='text-red-500 text-xs hidden sm:hidden md:hidden lg:block'> Sign out</p>
           </Button>
