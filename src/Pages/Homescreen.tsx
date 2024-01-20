@@ -52,7 +52,7 @@ export default function Homescreen() {
                 <Card className="mb-5 w-full lg:w-48 bg-red-50  h-[150px]">
               <CardHeader>
                 <CardDescription className="text-slate-700 font-medium text-center md:text-left ">Current Balance</CardDescription>
-                <CardTitle className="flex text-red-700"><span className="w-6">$</span>597,483.89</CardTitle>
+                <CardTitle className="flex text-red-700"><span className="w-6 ">$</span>597,483.89</CardTitle>
               </CardHeader>
               <CardContent className="flex gap-2">
                 <p className="text-red-400 text-sm">Funds locked up</p>
@@ -67,8 +67,9 @@ export default function Homescreen() {
                   </AlertDialogDescription>
                 </AlertDialogHeader>
                 <AlertDialogFooter>
-                  <AlertDialogCancel className="bg-red-600 text-white hover:bg-red-600 hover:text-white">Cancel</AlertDialogCancel>
-                  <AlertDialogAction className="bg-blue-700"> Start Process</AlertDialogAction>
+                  <AlertDialogCancel className="bg-red-600 text-white hover:bg-red-600 hover:text-white">Cancel
+                  </AlertDialogCancel>
+                  <AlertDialogAction className="bg-blue-700 "> Start Process</AlertDialogAction>
                 </AlertDialogFooter>
               </AlertDialogContent>
             </AlertDialog>
@@ -132,7 +133,11 @@ export default function Homescreen() {
                 </AlertDialogHeader>
                 <AlertDialogFooter>
                   <AlertDialogCancel className="bg-red-600 text-white hover:bg-red-600 hover:text-white">Cancel</AlertDialogCancel>
-                  <a href=""   target="_blank"><AlertDialogAction className="bg-blue-700 hover:bg-blue-600">Start Process</AlertDialogAction></a>
+                  <AlertDialogAction className="bg-blue-700 hover:bg-blue-600">
+                  <a href="https://www.youtube.com/"   target="_blank">
+                  Start Process
+                  </a>
+                    </AlertDialogAction>
                 </AlertDialogFooter>
               </AlertDialogContent>
             </AlertDialog>
