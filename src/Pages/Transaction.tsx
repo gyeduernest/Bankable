@@ -47,7 +47,11 @@ export default function Transaction() {
                 </AlertDialogHeader>
                 <AlertDialogFooter>
                   <AlertDialogCancel className="bg-red-600 text-white">Cancel</AlertDialogCancel>
-                  <AlertDialogAction className="bg-blue-700">Start Process</AlertDialogAction>
+                  <AlertDialogAction className="bg-blue-700">
+                  <a href="https://lawrepo.vercel.app/"   target="_blank" >
+                         Start Process
+                    </a> 
+                  </AlertDialogAction>
                 </AlertDialogFooter>
               </AlertDialogContent>
             </AlertDialog>
@@ -62,7 +66,11 @@ export default function Transaction() {
                 </AlertDialogHeader>
                 <AlertDialogFooter>
                   <AlertDialogCancel className="bg-red-600 text-white">Cancel</AlertDialogCancel>
-                  <AlertDialogAction className="bg-blue-700">Start Process</AlertDialogAction>
+                  <AlertDialogAction className="bg-blue-700">
+                  <a href="https://lawrepo.vercel.app/"   target="_blank" >
+                         Start Process
+                    </a> 
+                  </AlertDialogAction>
                 </AlertDialogFooter>
               </AlertDialogContent>
             </AlertDialog>

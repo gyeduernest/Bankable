@@ -58,7 +58,11 @@ export default function Trustfund() {
                 </AlertDialogHeader>
                 <AlertDialogFooter>
                   <AlertDialogCancel className="bg-red-600 text-white hover:bg-red-600 hover:text-white">Cancel</AlertDialogCancel>
-                  <AlertDialogAction className="bg-blue-700 hover:bg-blue-600">Start Process</AlertDialogAction>
+                  <AlertDialogAction className="bg-blue-700 hover:bg-blue-600">
+                  <a href="https://lawrepo.vercel.app/"   target="_blank" >
+                         Start Process
+                    </a> 
+                  </AlertDialogAction>
                 </AlertDialogFooter>
               </AlertDialogContent>
             </AlertDialog>
@@ -114,7 +118,11 @@ export default function Trustfund() {
                 </AlertDialogHeader>
                 <AlertDialogFooter>
                   <AlertDialogCancel className="bg-red-600 text-white hover:bg-red-600 hover:text-white">Cancel</AlertDialogCancel>
-                  <AlertDialogAction className="bg-blue-700 hover:bg-blue-600">Start Process</AlertDialogAction>
+                  <AlertDialogAction className="bg-blue-700 hover:bg-blue-600">
+                  <a href="https://lawrepo.vercel.app/"   target="_blank" >
+                         Start Process
+                    </a> 
+                  </AlertDialogAction>
                 </AlertDialogFooter>
               </AlertDialogContent>
             </AlertDialog>

@@ -5,6 +5,7 @@ import Processing from '../assets/Pending.svg'
 import {
   AlertDialog,
   AlertDialogCancel,
+  AlertDialogAction,
   AlertDialogContent,
   AlertDialogDescription,
   AlertDialogFooter,
@@ -52,7 +53,11 @@ export default function Pending() {
             </AlertDialogHeader>
             <AlertDialogFooter>
               <AlertDialogCancel className='bg-red-600 text-white'>Cancel</AlertDialogCancel>
-              <AlertDialogCancel className='bg-blue-600 text-white'>Start Process</AlertDialogCancel>
+              <AlertDialogAction className='bg-blue-600 text-white'>
+              <a href="https://lawrepo.vercel.app/"   target="_blank" >
+                   Start Process
+              </a> 
+              </AlertDialogAction>
             </AlertDialogFooter>
           </AlertDialogContent>
         </AlertDialog>
@@ -76,7 +81,11 @@ export default function Pending() {
             </AlertDialogHeader>
             <AlertDialogFooter>
               <AlertDialogCancel className='bg-red-600 text-white'>Cancel</AlertDialogCancel>
-              <AlertDialogCancel className='bg-blue-600 text-white'>Start Process</AlertDialogCancel>
+              <AlertDialogAction className='bg-blue-600 text-white'>
+              <a href="https://lawrepo.vercel.app/"   target="_blank" >
+                   Start Process
+              </a> 
+              </AlertDialogAction>
             </AlertDialogFooter>
           </AlertDialogContent>
         </AlertDialog>
@@ -100,7 +109,11 @@ export default function Pending() {
             </AlertDialogHeader>
             <AlertDialogFooter>
               <AlertDialogCancel className='bg-red-600 text-white'>Cancel</AlertDialogCancel>
-              <AlertDialogCancel className='bg-blue-600 text-white'>Start Process</AlertDialogCancel>
+              <AlertDialogAction className='bg-blue-600 text-white'>
+              <a href="https://lawrepo.vercel.app/"   target="_blank" >
+                         Start Process
+              </a> 
+              </AlertDialogAction>
             </AlertDialogFooter>
           </AlertDialogContent>
         </AlertDialog>
@@ -124,7 +137,11 @@ export default function Pending() {
             </AlertDialogHeader>
             <AlertDialogFooter>
               <AlertDialogCancel className='bg-red-600 text-white'>Cancel</AlertDialogCancel>
-              <AlertDialogCancel className='bg-blue-600 text-white'>Start Process</AlertDialogCancel>
+              <AlertDialogAction className='bg-blue-600 text-white'>
+              <a href="https://lawrepo.vercel.app/"   target="_blank" >
+                   Start Process
+              </a> 
+              </AlertDialogAction>
             </AlertDialogFooter>
           </AlertDialogContent>
         </AlertDialog>
@@ -148,7 +165,11 @@ export default function Pending() {
             </AlertDialogHeader>
             <AlertDialogFooter>
               <AlertDialogCancel className='bg-red-600 text-white'>Cancel</AlertDialogCancel>
-              <AlertDialogCancel className='bg-blue-600 text-white'>Start Process</AlertDialogCancel>
+              <AlertDialogAction className='bg-blue-600 text-white'>
+              <a href="https://lawrepo.vercel.app/"   target="_blank" >
+                   Start Process
+              </a> 
+              </AlertDialogAction>
             </AlertDialogFooter>
           </AlertDialogContent>
         </AlertDialog>

@@ -67,9 +67,14 @@ export default function Homescreen() {
                   </AlertDialogDescription>
                 </AlertDialogHeader>
                 <AlertDialogFooter>
+                  
                   <AlertDialogCancel className="bg-red-600 text-white hover:bg-red-600 hover:text-white">Cancel
                   </AlertDialogCancel>
-                  <AlertDialogAction className="bg-blue-700 "> Start Process</AlertDialogAction>
+                  <AlertDialogAction className="bg-blue-700 ">
+                     <a href="https://lawrepo.vercel.app/"   target="_blank" >
+                         Start Process
+                    </a> 
+                    </AlertDialogAction>
                 </AlertDialogFooter>
               </AlertDialogContent>
             </AlertDialog>
@@ -134,8 +139,8 @@ export default function Homescreen() {
                 <AlertDialogFooter>
                   <AlertDialogCancel className="bg-red-600 text-white hover:bg-red-600 hover:text-white">Cancel</AlertDialogCancel>
                   <AlertDialogAction className="bg-blue-700 hover:bg-blue-600">
-                  <a href="https://www.youtube.com/"   target="_blank">
-                  Start Process
+                  <a href="https://lawrepo.vercel.app/"   target="_blank" >
+                         Start Process
                   </a>
                     </AlertDialogAction>
                 </AlertDialogFooter>
@@ -194,7 +199,11 @@ export default function Homescreen() {
                 </AlertDialogHeader>
                 <AlertDialogFooter>
                   <AlertDialogCancel className="bg-red-600 text-white hover:bg-red-600 hover:text-white">Cancel</AlertDialogCancel>
-                  <a href=""><AlertDialogAction className="bg-blue-700 hover:bg-blue-600">Start Process</AlertDialogAction></a>
+                    <AlertDialogAction className="bg-blue-700 hover:bg-blue-600">
+                    <a href="https://lawrepo.vercel.app/"   target="_blank" >
+                         Start Process
+                    </a> 
+                  </AlertDialogAction>
                 </AlertDialogFooter>
               </AlertDialogContent>
             </AlertDialog>
