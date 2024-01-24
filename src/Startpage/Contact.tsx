@@ -9,13 +9,13 @@ const onAlert = () =>{
 }
 
   return (
-    <div className=' lg:flex py-20 lg:gap-8 lg:px-96 mx-auto lg:p-20'>
+    <div className=' lg:flex py-20 lg:gap-8 justify-center mx-auto lg:p-20'>
       <div className='px-3 lg:flex  lg:justify-center lg:gap-8 lg:items-center'>
       <form action="" className=' mb-5 border p-5 rounded-md lg:py-10 py-5 lg:p-5 lg:w-96 w-80 px-5 bg-white shadow-md justify-center mx-auto'>
-            <h5 className='lg:text-2xl font-semibold mb-2'>
+            <h5 className='lg:text-2xl  mb-2 text-3xl font-bold'>
               Talk to us
             </h5>
-            <p className=' text-sm mb-5 pr-12'>
+            <p className=' text-sm mb-5 w-full text-center'>
               You can fill this form if you want 
               to ask any questions and be 
               rest assured our team will get back to you
@@ -40,7 +40,7 @@ const onAlert = () =>{
                 Get Enquiries
             </button>
           </form>
-          <img src={CTO} alt="" className='lg:w-96 lg:h-96' />  
+          <img src={CTO} alt="" className='lg:w-96 lg:h-96 px-16' />  
       </div>         
       
     </div>

@@ -57,7 +57,7 @@ export default function Topnav() {
 
                 <Button className=''  variant={"outline"} >
                   <img src={Person} alt="" />
-                  <p className='text-xs hidden sm:hidden md:hidden lg:block'>Mary Jones</p>
+                  <p className='text-xs hidden sm:hidden md:hidden lg:block'>............</p>
                </Button>
                 <Signout/>
               </ul>

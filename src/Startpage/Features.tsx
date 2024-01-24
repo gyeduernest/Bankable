@@ -9,9 +9,8 @@ export default function Features () {
           <h3 className='lg:text-3xl text-2xl font-bold text-center lg:w-80 font-serif'>
           The complete financial stack for your business
           </h3>
-          <p className='  text-xs mb-10 text-center lg:w-80 px-1'>
-          Top-end financial tools to help your business with its financial operations and cash flow.
-          We help companies of all types work better, save time and money with a simply better banking service that works.
+          <p className='  text-xs mb-10 text-center lg:w-80 px-5'>
+          Top-end financial tools to help you and your business with its financial operations and cash flow.We help individuals also keep their assets and keep track of it with our platform.
           </p>
 
           <div className='lg:flex lg:gap-20 lg:p-3 items-center'>

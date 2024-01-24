@@ -15,8 +15,8 @@ export default function Procedure() {
       <div className='py-10  flex lg:px-20 lg:gap-80'>
         <div className=''>
           
-          <div className='p-2  border-l-4 border-slate-400 lg:p-3 hover:bg-slate-50 hover:text-slate-800 mb-5 lg:mb-5'>
-            <div className='text-slate-400 hover:text-slate-900'>
+          <div className='p-2  border-l-4 border-blue-700 lg:p-3 hover:bg-slate-50 hover:text-slate-800 mb-5 lg:mb-5'>
+            <div className='text-slate-800'>
             <h4 className=' text-md font-bold'>
               Visit Website
             </h4>
@@ -25,8 +25,8 @@ export default function Procedure() {
             </p>
             </div>
           </div>
-          <div className='p-2  border-l-4 border-slate-400 lg:p-3 hover:bg-slate-50 hover:text-slate-800 mb-5 lg:mb-5'>
-            <div className='text-slate-400 hover:text-slate-900'>
+          <div className='p-2  border-l-4 border-green-500 lg:p-3  mb-5 lg:mb-5'>
+            <div className='text-slate-800'>
             <h4 className=' text-md font-bold'>
               Make a Request
             </h4>
@@ -35,8 +35,8 @@ export default function Procedure() {
             </p>
             </div>
           </div>
-          <div className='p-2  border-l-4 border-slate-400 lg:p-3 hover:bg-slate-50 hover:text-slate-800 mb-5 lg:mb-5'>
-            <div className='text-slate-400 hover:text-slate-900'>
+          <div className='p-2  border-l-4 border-red-800 lg:p-3 hover:bg-slate-50 hover:text-slate-800 mb-5 lg:mb-5'>
+            <div className='text-slate-800'>
             <h4 className=' text-md font-bold'>
               Log in
             </h4>

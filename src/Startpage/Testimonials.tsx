@@ -15,7 +15,64 @@ export default function Testimonials() {
         </div>
         <div className='p-5'>
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis dignissimos odio quidem repellat expedita reiciendis sint eos optio, sed, aut veritatis maxime alias consequatur. Quis repudiandae nostrum facilis necessitatibus ratione.
+          Ever since I started using the TrustTracker app, managing my trust fund assets has become a breeze! It's like having a personal financial assistant in my pocket. Highly recommend it
+          </p>
+          <hr />
+          <div className='flex items-center'>
+            <img src={Mary} alt="" />
+            <div>
+            <p>Anna Marrie</p>
+            <img src={Star} alt="" />
+            </div>
+          </div>
+        </div>
+
+        </div>
+        <div  className='w-72 h-96 bg-white rounded-md mb-5'>
+        <div>
+          <img src={Quotes} alt="" />
+        </div>
+        <div className='p-5'>
+          <p>
+          "Kudos to the team behind TrustTracker! This app has made overseeing my trust fund a delight. It's efficient, intuitive, and has given me a whole new level of control over my assets. Love it!"
+          </p>
+          <hr />
+          <div className='flex items-center'>
+            <img src={Mary} alt="" />
+            <div>
+            <p>Anna Marrie</p>
+            <img src={Star} alt="" />
+            </div>
+          </div>
+        </div>
+
+        </div>
+        <div  className='w-72 h-96 bg-white rounded-md mb-5'>
+        <div>
+          <img src={Quotes} alt="" />
+        </div>
+        <div className='p-5'>
+          <p>
+          "I've tried several trust fund management apps, but TrustTracker stands out. It's the perfect blend of simplicity and functionality. Now, I can monitor my assets effortlessly – truly a game-changer!"
+          </p>
+          <hr />
+          <div className='flex items-center'>
+            <img src={Mary} alt="" />
+            <div>
+            <p>Anna Marrie</p>
+            <img src={Star} alt="" />
+            </div>
+          </div>
+        </div>
+
+        </div>
+        <div  className='w-72 h-96 bg-white rounded-md mb-5 md:hidden'>
+        <div>
+          <img src={Quotes} alt="" />
+        </div>
+        <div className='p-5'>
+          <p>
+          "TrustTracker is a game-changer for anyone with a trust fund. The ability to track and manage assets in real-time has brought a new level of transparency to my financial planning. I couldn't be happier with the results!"
           </p>
           <hr />
           <div className='flex items-center'>

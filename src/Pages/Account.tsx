@@ -34,7 +34,7 @@ export default function Account() {
             Full name
           </div>
               <AlertDialog>
-            <AlertDialogTrigger  className=' items-center px-16 rounded-md border text-slate-300 py-2 flex gap-2' >Mary Jones <img src={lock} alt="" /> </AlertDialogTrigger>
+            <AlertDialogTrigger  className=' items-center px-16 rounded-md border text-slate-300 py-2 flex gap-2 w-64' >.......................<img src={lock} alt="" /> </AlertDialogTrigger>
             <AlertDialogContent>
               <AlertDialogHeader>
                 <AlertDialogTitle>Account locked?</AlertDialogTitle>
@@ -53,7 +53,7 @@ export default function Account() {
                   Email Address
           </div>
               <AlertDialog>
-            <AlertDialogTrigger  className=' items-center px-10  rounded-md border text-slate-300 py-2  flex gap-2  text-center' >Maryjones@gmail.com <img src={lock} alt="" /> </AlertDialogTrigger>
+            <AlertDialogTrigger  className='w-64 items-center px-10  rounded-md border text-slate-300 py-2  flex gap-2  text-center' >................................<img src={lock} alt="" /> </AlertDialogTrigger>
             <AlertDialogContent>
               <AlertDialogHeader>
                 <AlertDialogTitle>You cannot change your email</AlertDialogTitle>
@@ -74,7 +74,7 @@ export default function Account() {
             Account number
           </div>
               <AlertDialog>
-            <AlertDialogTrigger  className='items-center px-16 rounded-md border text-slate-300 py-2 flex gap-2' >46545465585 <img src={lock} alt="" /> </AlertDialogTrigger>
+            <AlertDialogTrigger  className='w-64 items-center px-16 rounded-md border text-slate-300 py-2 flex gap-2' >........................ <img src={lock} alt="" /> </AlertDialogTrigger>
             <AlertDialogContent>
               <AlertDialogHeader>
                 <AlertDialogTitle>Your Account number</AlertDialogTitle>
@@ -93,7 +93,7 @@ export default function Account() {
             Name of bank
           </div>
               <AlertDialog>
-            <AlertDialogTrigger  className=' items-center px-20 rounded-md border text-slate-300 py-2 flex gap-2' >Bancorp <img src={lock} alt="" /> </AlertDialogTrigger>
+            <AlertDialogTrigger  className='w-64 items-center px-20 rounded-md border text-slate-300 py-2 flex gap-2' >Bancorp <img src={lock} alt="" /> </AlertDialogTrigger>
             <AlertDialogContent>
               <AlertDialogHeader>
                 <AlertDialogTitle>Bank name?</AlertDialogTitle>
@@ -112,7 +112,7 @@ export default function Account() {
                   Telephone number
           </div>
               <AlertDialog>
-            <AlertDialogTrigger  className=' items-center px-20  rounded-md border text-slate-300 py-2  flex gap-2  text-center' >+1........... <img src={lock} alt="" /> </AlertDialogTrigger>
+            <AlertDialogTrigger  className='w-64 items-center px-20  rounded-md border text-slate-300 py-2  flex gap-2  text-center' >+1............... <img src={lock} alt="" /> </AlertDialogTrigger>
             <AlertDialogContent>
               <AlertDialogHeader>
                 <AlertDialogTitle>Your Phone number</AlertDialogTitle>
@@ -133,7 +133,7 @@ export default function Account() {
                   Trust fund Contract holders
           </div>
               <AlertDialog>
-            <AlertDialogTrigger  className=' items-center px-10  rounded-md border text-slate-300 py-2  flex gap-2  text-center' >Stevens and Leeto <img src={lock} alt="" /> </AlertDialogTrigger>
+            <AlertDialogTrigger  className='w-64 items-center px-10  rounded-md border text-slate-300 py-2  flex gap-2  text-center' >Stevens and Leeto <img src={lock} alt="" /> </AlertDialogTrigger>
             <AlertDialogContent>
               <AlertDialogHeader>
                 <AlertDialogTitle>Are you absolutely sure?</AlertDialogTitle>
